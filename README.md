@@ -22,6 +22,7 @@ You don't need to include anything. This mail bomber uses [PHPMailer](https://gi
 ## Preparing a Gmail Account
 
 In order to send mails from a gmail address using the mail bomber you must give permission to less secure applications. Follow these steps:
+
 1. Sign in into your gmail account.
 2. Go to [https://www.google.com/settings/security/lesssecureapps](https://www.google.com/settings/security/lesssecureapps)
 3. Check the option "Enable".
