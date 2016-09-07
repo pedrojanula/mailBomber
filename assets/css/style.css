@@ -1,0 +1,15 @@
+html, body{
+	background-color: #CECEF6;
+}
+
+.no-float{
+	float: none;
+}
+
+.dif{
+	display: inline-flex;
+}
+
+.mt50{
+	margin-top: 50px;
+}

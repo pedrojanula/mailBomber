@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>MailBomber</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery-3.1.0.min.js"></script>
+        <script src="assets/js/code.js"></script>
+    </head>
+    <body>
+        <div class="col-md-12 no-float">
+            <div class="page-header">
+                <h1>MailBomber 1.0 <small>Connect a Gmail account and FIRE!</small></h1>
+            </div>
+
+            <div class="col-md-8 text-center no-float center-block">
+                <form method="post" action="send.php">
+                    <div>
+                        <div class="form-group dif">
+                            <input type="email" required="true" class="form-control" name="mail" id="mail" placeholder="Gmail Address: ">
+
+                            <input type="password" required="true" class="form-control" name="password" id="password" placeholder="Gmail Password: ">
+                        </div>
+                    </div>
+                    
+                    <div class="mt50">
+                        <div class="form-group">
+                            <input type="text" required="true" class="form-control" name="name" id="name" placeholder="Your name: ">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" required="true" class="form-control" name="sendTo" id="sendTo" placeholder="Send to: ">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" required="true" class="form-control" name="subject" id="subject" placeholder="Subject: ">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" required="true" class="form-control" name="message" id="message" placeholder="Message: ">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" required="true" class="form-control" name="numSend" id="numSend" placeholder="Number of Mails to Send: ">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-large btn-success" name="send" id="send">SEND!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
