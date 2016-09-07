@@ -13,3 +13,7 @@ html, body{
 .mt50{
 	margin-top: 50px;
 }
+
+.bgwhite{
+	background-color: white!important;
+}
