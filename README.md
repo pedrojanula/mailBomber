@@ -11,7 +11,7 @@ Mail Bomber is a tool that allows you to send hundreds of e-mails in a short tim
 ## Installation
 1. Clone this repository into your web server.
 ```bash
-git clone https://github.com/pedrojanula/mail-bomber.git
+git clone https://github.com/pedrojanula/mailBomber
 ```
 2. Open `index.html` to use.
 
